@@ -1,0 +1,50 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+instance/
+.env
+venv/
+.venv/
+env/
+*.log
+
+# --- FastAPI / Uvicorn ---
+*.pid
+*.sock
+
+# --- Config / Secrets ---
+.env
+config.json
+*.pem
+*.key
+*.crt
+serviceAccountKey.json
+openai_api_key.txt
+credentials.json
+
+# --- JavaScript / Frontend ---
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+.next/
+out/
+
+# --- System / IDE Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- Temporary / Generated Files ---
+*.zip
+*.tar
+*.gz
+*.tmp
+*.bak
